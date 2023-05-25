@@ -7,6 +7,10 @@
 	scroll-behavior: smooth;
 }
 
+// html {
+// 	scroll-padding-top: 59px;
+// }
+
 .container {
 	width: 60%;
 	margin: 0 auto;
@@ -43,6 +47,10 @@ nav a {
 	text-decoration: none;
 	text-transform: uppercase;
 	color: white;
+}
+
+.active{
+	color:#e48c8c
 }
 
 a:nth-child(2) {
