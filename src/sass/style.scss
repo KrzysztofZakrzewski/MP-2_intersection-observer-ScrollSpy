@@ -4,8 +4,130 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	scroll-behavior: smooth;
 }
 
-body {
-	height: 100svh;
+.container {
+	width: 60%;
+	margin: 0 auto;
+	// border: 1px solid black;
 }
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: transparent;
+	background-color: rgba(0, 0, 0, 0.5);
+
+	z-index: 999;
+}
+
+.nav-container {
+	width: 60%;
+	margin: 0 auto;
+}
+
+nav {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+nav a {
+	display: inline-block;
+	margin: 0 10px 0 10px;
+	padding: 20px 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+}
+
+a:nth-child(2) {
+	margin-left: auto;
+}
+
+section {
+	height: 100svh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	text-transform: uppercase;
+	font-size: 200px;
+	
+}
+
+.section-odd {
+	color: aliceblue;
+	background-color: #e48c8c;
+}
+
+.section-even {
+	color: #e48c8c ;
+	background-color: aliceblue;
+}
+
+// body {
+// 	position: relative;
+// 	// height: 100svh;
+// 	display: flex;
+// 	justify-content: center;
+// 	background-color: red;
+// }
+
+// .container {
+// 	position: relative;
+// 	width: 800px;
+// 	border: 1px solid red;
+// 	margin: 0 auto;
+
+// 	header {
+// 		// width: 80%;
+// 		// position: fixed;
+// 		// top: 0;
+// 		// left: 0;
+
+// 		// z-index: 1000;
+// 		// text-align: center;
+// 		// display: flex;
+// 		// justify-content: start;
+
+// 		nav {
+// 			position: fixed;
+// 			top: 0;
+// 			left: 0;
+// 			height: 70px;
+// 			width: 100%;
+// 			display: flex;
+// 			// justify-content: center;
+
+// 			text-align: center;
+// 			align-items: center;
+// 			background-color: #fff;
+
+// 			a {
+// 				height: 100%;
+// 				padding: 10px 20px;
+// 				color: #fff;
+// 				border: 1px solid black;
+// 				text-decoration: none;
+// 				background-color: lime;
+// 			}
+
+// 			// .mmm {
+// 			// 	margin-left: auto;
+// 			// }
+// 			:nth-child(2) {
+// 				margin-left: auto;
+// 			}
+// 		}
+// 	}
+// 	section {
+// 		height: 100svh;
+// 		width: 100svw;
+// 		background-color: green;
+// 	}
+
+// }
